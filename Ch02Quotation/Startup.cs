@@ -56,7 +56,7 @@ namespace Ch02Quotation
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=PriceQuotation}/{action=Calculate}/{id?}");
             });
         }
     }
